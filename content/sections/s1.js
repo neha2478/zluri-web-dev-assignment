@@ -1,6 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 import { Container, Wrapper } from "./style";
+import Q1 from "./q1";
 
 const S1 = () => {
     return (
@@ -11,6 +12,7 @@ const S1 = () => {
                         Solution Here
                     </h4>
                     <p>Answer below this.</p>
+                    <Q1/>
                 </Title>
             </Container>
         </StyledWrapper>
